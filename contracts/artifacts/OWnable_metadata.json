@@ -1,0 +1,44 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Ownable.sol": "OWnable"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Ownable.sol": {
+			"keccak256": "0x2189db10c07afaed923804d97f60245f75f38e4d78386e11c4aef5629c40398d",
+			"urls": [
+				"bzz-raw://3b32c60ab75336500e2c7db8ba3202d014283d68aedee380c38c9548534ad0cc",
+				"dweb:/ipfs/QmakjdDkQEQvwt7UT4WvShNbJDhsSdkCAq3c6qKJhVkxLw"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,69 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "gas",
+						"type": "uint256"
+					}
+				],
+				"name": "Log",
+				"type": "event"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Sendethers.sol": "EthReceiver"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Sendethers.sol": {
+			"keccak256": "0x761b0fc7e54ca06ef864a9e55a6c32639fcfa387b45a6009d58391036948d689",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://61fe05aca436fa377fd0f406d95669782501513a83d8d9660b24cdf613aa56c8",
+				"dweb:/ipfs/QmWKADQB7dH6Akj5i9V91CpEVPoeAuvJX6Z9fM8DXgQgtt"
+			]
+		}
+	},
+	"version": 1
+}
